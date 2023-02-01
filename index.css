@@ -1,3 +1,18 @@
-#container {
-  background-color: red;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  padding: 3px;
+}
+
+body {
+  margin: 0px;
+}
+.searchbar {
+  border-radius: 30px;
+  border: none;
+  color: white;
+  margin-bottom: 10px;
+  padding: 5px;
 }
